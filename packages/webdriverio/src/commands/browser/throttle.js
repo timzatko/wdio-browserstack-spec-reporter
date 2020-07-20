@@ -1,12 +1,15 @@
 /**
  * Throttle the network capabilities of the browser. This can help to
- * emulate certain scenarios where a user looses the internet connection
+ * emulate certain scenarios where a user loses their internet connection
  * and your app needs to address that.
+ *
+ * [There are many presets available](https://github.com/webdriverio/webdriverio/blob/master/packages/webdriverio/src/commands/browser/throttle.js#L29)
+ * with default configurations for ease of use.
  *
  * <example>
     :throttle.js
     it('should throttle the network', () => {
-        // via static string
+        // via static string preset
         browser.throttle('Regular 3G')
 
         // via custom values
