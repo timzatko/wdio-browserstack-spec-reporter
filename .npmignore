@@ -1,7 +1,6 @@
+# Ignore all files
 *
 
 # But not these files...
-build
-build/**
-package.json
-README.md
+!dist
+!dist/*.js

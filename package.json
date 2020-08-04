@@ -5,15 +5,15 @@
   "author": "Timotej Zatko <timi.zatko@gmail.com>",
   "homepage": "https://github.com/timzatko/wdio-browserstack-spec-reporter",
   "license": "MIT",
-  "main": "./build/index",
+  "main": "./dist/index",
   "engines": {
     "node": ">=10.0.0"
   },
   "scripts": {
-    "build": "npx npm-run-all clean compile",
-    "clean": "npx rimraf ./build",
-    "compile": "babel src/ -d build/",
-    "test": "run-s test:*",
+    "build": "npx npm-run-all -s clean compile",
+    "clean": "npx rimraf ./dist",
+    "compile": "babel src/ -d bu/",
+    "test": "npm-run-all -s test:*",
     "test:eslint": "eslint src test",
     "test:unit": "jest",
     "prepublish": "npm run build"
