@@ -8,19 +8,19 @@ WDIO BrowserStack Spec Reporter
 ## Installation
 
 ```sh
-$ npm install timzatko/wdio-browserstack-spec-reporter --save-dev
+$ npm install wdio-browserstack-spec-reporter --save-dev
 ```
 
 ## Configuration
 
-The following code shows the default wdio test runner configuration. Just add `'spec'` as a reporter
+The following code shows the default wdio test runner configuration. Just add `'browserstack-spec'` as a reporter
 to the array.
 
 ```js
 // wdio.conf.js
 module.exports = {
   // ...
-  reporters: ['dot', 'spec'],
+  reporters: ['dot', 'browserstack-spec'],
   // ...
 };
 ```
