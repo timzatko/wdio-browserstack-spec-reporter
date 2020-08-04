@@ -2,5 +2,6 @@
 
 # But not these files...
 build
+build/**
 package.json
 README.md
