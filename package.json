@@ -1,6 +1,6 @@
 {
   "name": "wdio-browserstack-spec-reporter",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A WebdriverIO plugin to report in spec style suited for BrowserStack",
   "author": "Timotej Zatko <timi.zatko@gmail.com>",
   "homepage": "https://github.com/timzatko/wdio-browserstack-spec-reporter",
