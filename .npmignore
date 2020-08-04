@@ -1,0 +1,6 @@
+*
+
+# But not these files...
+build
+package.json
+README.md

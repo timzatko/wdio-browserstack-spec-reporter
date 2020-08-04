@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": 8
+      }
+    }]
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-function-bind",
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-optional-catch-binding",
+    "@babel/plugin-proposal-object-rest-spread"
+  ],
+  "comments": false
+}
