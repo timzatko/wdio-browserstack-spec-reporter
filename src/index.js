@@ -3,7 +3,7 @@ import chalk from 'chalk'
 import prettyMs from 'pretty-ms'
 import { buildTableData, printTable, getFormattedRows } from './utils'
 
-class SpecReporter extends WDIOReporter {
+class BrowserStackSpecReporter extends WDIOReporter {
     constructor (options) {
         /**
          * make spec reporter to write to output stream by default
@@ -423,4 +423,4 @@ class SpecReporter extends WDIOReporter {
     }
 }
 
-export default SpecReporter
+export default BrowserStackSpecReporter

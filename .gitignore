@@ -117,3 +117,6 @@ dist
 
 # IDE
 .idea
+
+# Build
+build
