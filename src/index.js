@@ -208,7 +208,7 @@ class BrowserStackSpecReporter extends WDIOReporter {
                 const testTitle = test.title
                 const state = test.state
                 const testIndent = `${this.defaultTestIndent}${suiteIndent}`
-                const sessionId = test.output.length ? test.output[test.output.length - 1].sessionId : '?';
+                const sessionId = (test.output || []).length ? test.output[test.output.length - 1].sessionId : '?'
 
                 // Output for a single test
                 output.push(`${testIndent}${this.chalk[this.getColor(state)](this.getSymbol(state))} ${testTitle} (https://automate.browserstack.com/dashboard/v2/search?query=${sessionId}&type=sessions)`)

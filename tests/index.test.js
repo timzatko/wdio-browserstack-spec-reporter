@@ -266,7 +266,7 @@ describe('SpecReporter', () => {
         it('should validate header output', () => {
             const result = reporter.getHeaderDisplay(getRunnerConfig())
 
-            expect(result.length).toBe(3)
+            expect(result.length).toBe(4)
             expect(result[0]).toBe('Spec: /foo/bar/baz.js')
             expect(result[1]).toBe('Running: loremipsum (v50) on Windows 10')
         })
@@ -275,7 +275,7 @@ describe('SpecReporter', () => {
             const result = tmpReporter.getHeaderDisplay(
                 getRunnerConfig({ isMultiremote: true }))
 
-            expect(result.length).toBe(3)
+            expect(result.length).toBe(4)
             expect(result[0]).toBe('Spec: /foo/bar/baz.js')
             expect(result[1]).toBe('Running: MultiremoteBrowser (v50) on Windows 10')
         })
