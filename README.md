@@ -3,7 +3,7 @@ WDIO BrowserStack Spec Reporter
 
 > A WebdriverIO plugin to report in spec style suited for BrowserStack
 
-*NOTE:* This plugin is forked from the [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio) and extends `@wdio/spec-reporter` to report `Session IDs` for each test with a link to the BrowserStack Automate.
+__Note:__ This plugin is forked from the [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio) and extends `@wdio/spec-reporter` to report `Session IDs` for each test with a link to the BrowserStack Automate.
 
 ## Installation
 
